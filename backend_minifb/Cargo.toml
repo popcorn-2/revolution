@@ -3,5 +3,7 @@ name = "backend_minifb"
 version = "0.1.0"
 edition = "2024"
 
+[lib]
+
 [dependencies]
 minifb = "0.28"
