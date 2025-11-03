@@ -5,3 +5,5 @@ edition = "2024"
 
 [dependencies]
 proto = { path = "../../driver/proto" }
+revolution_keyboard = { path = "../revolution_keyboard" }
+toml = { version = "0.9.8", default-features = false, features = ["debug", "parse"] }

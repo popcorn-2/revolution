@@ -1,0 +1,521 @@
+name = "UK Macintosh International layout"
+author = "egkoppel"
+
+[rules."alpha"]
+shift = "uppercase"
+caps  = "uppercase"
+
+# --- Keys ---
+
+[[key]]
+code = 0
+action = "escape"
+
+# Function keys
+
+[[key]]
+code = 1
+action = "f1"
+
+[[key]]
+code = 2
+action = "f2"
+
+[[key]]
+code = 3
+action = "f3"
+
+[[key]]
+code = 4
+action = "f4"
+
+[[key]]
+code = 5
+action = "f5"
+
+[[key]]
+code = 6
+action = "f6"
+
+[[key]]
+code = 7
+action = "f7"
+
+[[key]]
+code = 8
+action = "f8"
+
+[[key]]
+code = 9
+action = "f9"
+
+[[key]]
+code = 10
+action = "f10"
+
+[[key]]
+code = 11
+action = "f11"
+
+[[key]]
+code = 12
+action = "f12"
+
+# Number row
+[[key]]
+code = 51
+base = "§"
+shift = "±"
+
+[[key]]
+code = 18
+base = "1"
+shift = "!"
+alt = "¡"
+alt-shift = "⁄"
+
+[[key]]
+code = 19
+base = "2"
+shift = "@"
+alt = "€"
+alt-shift = "™"
+
+[[key]]
+code = 20
+base = "3"
+shift = "#"
+alt = "£"
+alt-shift = "‹"
+
+[[key]]
+code = 21
+base = "4"
+shift = "$"
+alt = "¢"
+alt-shift = "›"
+
+[[key]]
+code = 22
+base = "5"
+shift = "%"
+alt = "∞"
+alt-shift = "ﬁ"
+
+[[key]]
+code = 23
+base = "6"
+shift = "^"
+alt = "§"
+
+[[key]]
+code = 24
+base = "7"
+shift = "&"
+alt = "¶"
+alt-shift = "‡"
+
+[[key]]
+code = 25
+base = "8"
+shift = "*"
+alt = "•"
+
+[[key]]
+code = 26
+base = "9"
+shift = "("
+alt = "ª"
+alt-shift = "·"
+
+[[key]]
+code = 27
+base = "0"
+shift = ")"
+alt = "º"
+alt-shift = "‚"
+
+[[key]]
+code = 28
+base = "-"
+shift = "_"
+alt = "–"
+alt-shift = "—"
+
+[[key]]
+code = 29
+base = "="
+shift = "+"
+alt = "≠"
+alt-shift = "±"
+
+[[key]]
+code = 30
+action = "backspace"
+
+# Tab and Q row
+
+[[key]]
+code = 38
+action = "tab"
+
+[[key]]
+code = 39
+base = "q"
+alt = "œ"
+
+[[key]]
+code = 40
+base = "w"
+alt = "∑"
+alt-shift = "„"
+
+[[key]]
+code = 41
+base = "e"
+alt = { dead = "acute" }
+alt-shift = "‰"
+
+[[key]]
+code = 42
+base = "r"
+alt = "®"
+alt-shift = "Â"
+
+[[key]]
+code = 43
+base = "t"
+alt = "†"
+alt-shift = "Ê"
+
+[[key]]
+code = 44
+base = "y"
+alt = "¥"
+alt-shift = "Á"
+
+[[key]]
+code = 45
+base = "u"
+alt = { dead = "umlaut" }
+alt-shift = "Ë"
+
+[[key]]
+code = 46
+base = "i"
+alt = { dead = "circumflex" }
+alt-shift = "È"
+
+[[key]]
+code = 47
+base = "o"
+alt = "ø"
+alt-shift = "Ø"
+
+[[key]]
+code = 48
+base = "p"
+alt = "π"
+
+[[key]]
+code = 49
+base = "["
+shift = "{"
+alt = "“"
+alt-shift = "”"
+
+[[key]]
+code = 50
+base = "]"
+shift = "}"
+alt = "‘"
+alt-shift = "’"
+
+# Home row
+
+[[key]]
+code = 61
+base = "a"
+alt = "å"
+
+[[key]]
+code = 62
+base = "s"
+alt = "ß"
+alt-shift = "Í"
+
+[[key]]
+code = 63
+base = "d"
+alt = "∂"
+alt-shift = "Î"
+
+[[key]]
+code = 64
+base = "f"
+alt = "ƒ"
+alt-shift = "Ï"
+
+[[key]]
+code = 65
+base = "g"
+alt = "©"
+alt-shift = "Ì"
+
+[[key]]
+code = 66
+base = "h"
+alt = "˙"
+alt-shift = "Ó"
+
+[[key]]
+code = 67
+base = "j"
+alt = "∆"
+alt-shift = "Ô"
+
+[[key]]
+code = 68
+base = "k"
+alt = "˚"
+alt-shift = ""
+
+[[key]]
+code = 69
+base = "l"
+alt = "¬"
+alt-shift = "Ò"
+
+[[key]]
+code = 39
+base = ";"
+shift = ":"
+alt = "…"
+alt-shift = "Ú"
+
+[[key]]
+code = 71
+base = "'"
+shift = "\""
+alt = "æ"
+
+[[key]]
+code = 52
+base = '\'
+shift = "|"
+alt = "«"
+alt-shift = "»"
+
+[[key]]
+code = 72
+action = "enter"
+
+# Bottom row
+
+[[key]]
+code = 17
+base = "`"
+shift = "~"
+alt = { dead = "grave" }
+alt-shift = "Ÿ"
+
+[[key]]
+code = 77
+base = "z"
+alt = "Ω"
+alt-shift = "Û"
+
+[[key]]
+code = 78
+base = "x"
+alt = "≈"
+alt-shift = "Ù"
+
+[[key]]
+code = 79
+base = "c"
+alt = "ç"
+
+[[key]]
+code = 80
+base = "v"
+alt = "√"
+alt-shift = "◊"
+
+[[key]]
+code = 81
+base = "b"
+alt = "∫"
+alt-shift = "ı"
+
+[[key]]
+code = 82
+base = "n"
+alt = { dead = "tilde" }
+alt-shift = "ˆ"
+
+[[key]]
+code = 83
+base = "m"
+alt = "µ"
+alt-shift = "˜"
+
+[[key]]
+code = 84
+base = ","
+shift = "<"
+alt = "≤"
+alt-shift = "¯"
+
+[[key]]
+code = 85
+base = "."
+shift = ">"
+alt = "≥"
+alt-shift = "˘"
+
+[[key]]
+code = 86
+base = "/"
+shift = "?"
+alt = "÷"
+alt-shift = "¿"
+
+[[key]]
+code = 96
+base = " "
+
+# Modifiers
+
+[[key]]
+code = 93
+action = "ctrl"
+
+[[key]]
+code = 76
+action = "shift"
+
+[[key]]
+code = 95
+action = "alt"
+
+[[key]]
+code = 94
+action = "cmd"
+
+[[key]]
+code = 98
+action = "cmd"
+
+[[key]]
+code = 97
+action = "compose"
+
+[[key]]
+code = 100
+action = "ctrl"
+
+[[key]]
+code = 87
+action = "shift"
+
+[[key]]
+code = 60
+action = "caps"
+
+# Navigation keys
+
+[[key]]
+code = 101
+action = "arrow_left"
+
+[[key]]
+code = 103
+action = "arrow_right"
+
+[[key]]
+code = 88
+action = "arrow_up"
+
+[[key]]
+code = 102
+action = "arrow_down"
+
+[[key]]
+code = 32
+action = "home"
+
+[[key]]
+code = 54
+action = "end"
+
+[[key]]
+code = 55
+action = "pgdown"
+
+[[key]]
+code = 33
+action = "pgup"
+
+# Dead keys
+
+[deadkeys.acute]
+"a" = "á"
+"e" = "é"
+"i" = "í"
+"o" = "ó"
+"u" = "ú"
+"A" = "Á"
+"E" = "É"
+"I" = "Í"
+"O" = "Ó"
+"U" = "Ú"
+fallback = "´"
+
+[deadkeys.grave]
+"a" = "à"
+"A" = "À"
+"e" = "è"
+"E" = "È"
+"i" = "ì"
+"I" = "Ì"
+"o" = "ò"
+"O" = "Ò"
+"u" = "ù"
+"U" = "Ù"
+fallback = "`"
+
+[deadkeys.circumflex]
+"a" = "â"
+"A" = "Â"
+"e" = "ê"
+"E" = "Ê"
+"i" = "î"
+"I" = "Î"
+"o" = "ô"
+"O" = "Ô"
+"u" = "û"
+"U" = "Û"
+fallback = "^"
+
+[deadkeys.tilde]
+"a" = "ã"
+"A" = "Ã"
+"n" = "ñ"
+"N" = "Ñ"
+"o" = "õ"
+"O" = "Õ"
+fallback = "~"
+
+[deadkeys.umlaut]
+"a" = "ä"
+"A" = "Ä"
+"e" = "ë"
+"E" = "Ë"
+"i" = "ï"
+"I" = "Ï"
+"o" = "ö"
+"O" = "Ö"
+"u" = "ü"
+"U" = "Ü"
+fallback = "¨"
